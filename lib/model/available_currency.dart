@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
-import 'package:natrium_wallet_flutter/model/setting_item.dart';
+import 'package:trollium_wallet_flutter/model/setting_item.dart';
 
 enum AvailableCurrencyEnum { USD, ARS, AUD, BRL, CAD, CHF, CLP, CNY, CZK, DKK,
                   EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, KWD,

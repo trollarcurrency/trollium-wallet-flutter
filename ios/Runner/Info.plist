@@ -79,7 +79,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.avengemedia.natrium</string>
+			<string>life.trollar.trollium</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>xrb</string>

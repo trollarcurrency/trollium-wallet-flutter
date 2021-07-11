@@ -2,51 +2,51 @@ import 'dart:async';
 import 'package:event_taxi/event_taxi.dart';
 import 'package:flutter/services.dart';
 import 'package:logger/logger.dart';
-import 'package:natrium_wallet_flutter/model/available_block_explorer.dart';
-import 'package:natrium_wallet_flutter/model/natricon_option.dart';
-import 'package:natrium_wallet_flutter/ui/accounts/accountdetails_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/accounts/accounts_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/settings/disable_password_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/settings/set_password_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/app_simpledialog.dart';
+import 'package:trollium_wallet_flutter/model/available_block_explorer.dart';
+import 'package:trollium_wallet_flutter/model/natricon_option.dart';
+import 'package:trollium_wallet_flutter/ui/accounts/accountdetails_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/accounts/accounts_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/settings/disable_password_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/settings/set_password_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/app_simpledialog.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/remote_message_card.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/remote_message_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/sheet_util.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/remote_message_card.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/remote_message_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/sheet_util.dart';
 import 'package:package_info/package_info.dart';
 import 'package:flutter/material.dart';
 import 'package:share/share.dart';
-import 'package:natrium_wallet_flutter/appstate_container.dart';
-import 'package:natrium_wallet_flutter/localization.dart';
-import 'package:natrium_wallet_flutter/styles.dart';
-import 'package:natrium_wallet_flutter/app_icons.dart';
-import 'package:natrium_wallet_flutter/service_locator.dart';
-import 'package:natrium_wallet_flutter/bus/events.dart';
-import 'package:natrium_wallet_flutter/model/authentication_method.dart';
-import 'package:natrium_wallet_flutter/model/available_currency.dart';
-import 'package:natrium_wallet_flutter/model/device_unlock_option.dart';
-import 'package:natrium_wallet_flutter/model/device_lock_timeout.dart';
-import 'package:natrium_wallet_flutter/model/notification_settings.dart';
-import 'package:natrium_wallet_flutter/model/available_language.dart';
-import 'package:natrium_wallet_flutter/model/available_themes.dart';
-import 'package:natrium_wallet_flutter/model/vault.dart';
-import 'package:natrium_wallet_flutter/model/db/appdb.dart';
-import 'package:natrium_wallet_flutter/ui/settings/backupseed_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/settings/changerepresentative_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/settings/settings_list_item.dart';
-import 'package:natrium_wallet_flutter/ui/settings/contacts_widget.dart';
-import 'package:natrium_wallet_flutter/ui/transfer/transfer_overview_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/transfer/transfer_confirm_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/transfer/transfer_complete_sheet.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/dialog.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/security.dart';
-import 'package:natrium_wallet_flutter/ui/util/ui_util.dart';
-import 'package:natrium_wallet_flutter/util/sharedprefsutil.dart';
-import 'package:natrium_wallet_flutter/util/biometrics.dart';
-import 'package:natrium_wallet_flutter/util/hapticutil.dart';
-import 'package:natrium_wallet_flutter/util/numberutil.dart';
-import 'package:natrium_wallet_flutter/util/caseconverter.dart';
-import 'package:natrium_wallet_flutter/util/ninja/api.dart';
+import 'package:trollium_wallet_flutter/appstate_container.dart';
+import 'package:trollium_wallet_flutter/localization.dart';
+import 'package:trollium_wallet_flutter/styles.dart';
+import 'package:trollium_wallet_flutter/app_icons.dart';
+import 'package:trollium_wallet_flutter/service_locator.dart';
+import 'package:trollium_wallet_flutter/bus/events.dart';
+import 'package:trollium_wallet_flutter/model/authentication_method.dart';
+import 'package:trollium_wallet_flutter/model/available_currency.dart';
+import 'package:trollium_wallet_flutter/model/device_unlock_option.dart';
+import 'package:trollium_wallet_flutter/model/device_lock_timeout.dart';
+import 'package:trollium_wallet_flutter/model/notification_settings.dart';
+import 'package:trollium_wallet_flutter/model/available_language.dart';
+import 'package:trollium_wallet_flutter/model/available_themes.dart';
+import 'package:trollium_wallet_flutter/model/vault.dart';
+import 'package:trollium_wallet_flutter/model/db/appdb.dart';
+import 'package:trollium_wallet_flutter/ui/settings/backupseed_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/settings/changerepresentative_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/settings/settings_list_item.dart';
+import 'package:trollium_wallet_flutter/ui/settings/contacts_widget.dart';
+import 'package:trollium_wallet_flutter/ui/transfer/transfer_overview_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/transfer/transfer_confirm_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/transfer/transfer_complete_sheet.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/dialog.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/security.dart';
+import 'package:trollium_wallet_flutter/ui/util/ui_util.dart';
+import 'package:trollium_wallet_flutter/util/sharedprefsutil.dart';
+import 'package:trollium_wallet_flutter/util/biometrics.dart';
+import 'package:trollium_wallet_flutter/util/hapticutil.dart';
+import 'package:trollium_wallet_flutter/util/numberutil.dart';
+import 'package:trollium_wallet_flutter/util/caseconverter.dart';
+import 'package:trollium_wallet_flutter/util/ninja/api.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flare_flutter/flare_actor.dart';
 
@@ -72,7 +72,7 @@ class _SettingsSheetState extends State<SettingsSheet>
       AuthenticationMethod(AuthMethod.BIOMETRICS);
   NotificationSetting _curNotificiationSetting =
       NotificationSetting(NotificationOptions.ON);
-  NatriconSetting _curNatriconSetting = NatriconSetting(NatriconOptions.ON);
+  NatriconSetting _curNatriconSetting = NatriconSetting(NatriconOptions.OFF);
   UnlockSetting _curUnlockSetting = UnlockSetting(UnlockOption.NO);
   LockTimeoutSetting _curTimeoutSetting =
       LockTimeoutSetting(LockTimeoutOption.ONE);
@@ -134,8 +134,9 @@ class _SettingsSheetState extends State<SettingsSheet>
     sl.get<SharedPrefsUtil>().getUseNatricon().then((useNatricon) {
       setState(() {
         _curNatriconSetting = useNatricon
-            ? NatriconSetting(NatriconOptions.OFF)
+            ? NatriconSetting(NatriconOptions.ON)
             : NatriconSetting(NatriconOptions.ON);
+
       });
     });
     // Get default theme settings
@@ -389,10 +390,10 @@ class _SettingsSheetState extends State<SettingsSheet>
           );
         })) {
       case NatriconOptions.ON:
-        sl.get<SharedPrefsUtil>().setUseNatricon(true).then((result) {
+        sl.get<SharedPrefsUtil>().setUseNatricon(false).then((result) {
           setState(() {
-            StateContainer.of(context).setNatriconOn(true);
-            _curNatriconSetting = NatriconSetting(NatriconOptions.ON);
+            StateContainer.of(context).setNatriconOn(false);
+            _curNatriconSetting = NatriconSetting(NatriconOptions.OFF);
           });
         });
         break;

@@ -3,19 +3,19 @@ import 'dart:ui';
 import 'dart:io';
 import 'dart:async';
 import 'package:intl/intl.dart';
-import 'package:natrium_wallet_flutter/network/model/response/alerts_response_item.dart';
-import 'package:natrium_wallet_flutter/util/random_util.dart';
+import 'package:trollium_wallet_flutter/network/model/response/alerts_response_item.dart';
+import 'package:trollium_wallet_flutter/util/random_util.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:natrium_wallet_flutter/service_locator.dart';
-import 'package:natrium_wallet_flutter/util/encrypt.dart';
-import 'package:natrium_wallet_flutter/model/available_themes.dart';
-import 'package:natrium_wallet_flutter/model/authentication_method.dart';
-import 'package:natrium_wallet_flutter/model/available_currency.dart';
-import 'package:natrium_wallet_flutter/model/available_language.dart';
-import 'package:natrium_wallet_flutter/model/available_block_explorer.dart';
-import 'package:natrium_wallet_flutter/model/device_lock_timeout.dart';
-import 'package:natrium_wallet_flutter/model/vault.dart';
-import 'package:natrium_wallet_flutter/model/wallet.dart';
+import 'package:trollium_wallet_flutter/service_locator.dart';
+import 'package:trollium_wallet_flutter/util/encrypt.dart';
+import 'package:trollium_wallet_flutter/model/available_themes.dart';
+import 'package:trollium_wallet_flutter/model/authentication_method.dart';
+import 'package:trollium_wallet_flutter/model/available_currency.dart';
+import 'package:trollium_wallet_flutter/model/available_language.dart';
+import 'package:trollium_wallet_flutter/model/available_block_explorer.dart';
+import 'package:trollium_wallet_flutter/model/device_lock_timeout.dart';
+import 'package:trollium_wallet_flutter/model/vault.dart';
+import 'package:trollium_wallet_flutter/model/wallet.dart';
 
 /// Price conversion preference values
 enum PriceConversion { BTC, NONE, HIDDEN }
@@ -227,7 +227,7 @@ class SharedPrefsUtil {
 
   Future<AvailableBlockExplorer> getBlockExplorer() async {
     return AvailableBlockExplorer(AvailableBlockExplorerEnum.values[await get(cur_explorer,
-        defaultValue: AvailableBlockExplorerEnum.NANOCRAWLER.index)]);
+        defaultValue: AvailableBlockExplorerEnum.TROLLAREXPLORER.index)]);
   }
 
   Future<ThemeSetting> getTheme() async {
@@ -362,7 +362,7 @@ class SharedPrefsUtil {
   }
 
   Future<bool> getUseNatricon() async {
-    return await get(use_natricon, defaultValue: true);
+    return await get(use_natricon, defaultValue: false);
   }
 
   Future<void> dismissAlert(AlertResponseItem alert) async {

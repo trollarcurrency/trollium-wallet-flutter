@@ -1,17 +1,17 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:natrium_wallet_flutter/appstate_container.dart';
-import 'package:natrium_wallet_flutter/dimens.dart';
-import 'package:natrium_wallet_flutter/styles.dart';
-import 'package:natrium_wallet_flutter/localization.dart';
-import 'package:natrium_wallet_flutter/ui/util/ui_util.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/buttons.dart';
+import 'package:trollium_wallet_flutter/appstate_container.dart';
+import 'package:trollium_wallet_flutter/dimens.dart';
+import 'package:trollium_wallet_flutter/styles.dart';
+import 'package:trollium_wallet_flutter/localization.dart';
+import 'package:trollium_wallet_flutter/ui/util/ui_util.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/buttons.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flare_flutter/flare_actor.dart';
-import 'package:natrium_wallet_flutter/model/natricon_option.dart';
-import 'package:natrium_wallet_flutter/ui/widgets/sheet_util.dart';
-import 'package:natrium_wallet_flutter/util/sharedprefsutil.dart';
-import 'package:natrium_wallet_flutter/service_locator.dart';
+import 'package:trollium_wallet_flutter/model/natricon_option.dart';
+import 'package:trollium_wallet_flutter/ui/widgets/sheet_util.dart';
+import 'package:trollium_wallet_flutter/util/sharedprefsutil.dart';
+import 'package:trollium_wallet_flutter/service_locator.dart';
 
 import '../../app_icons.dart';
 
@@ -27,7 +27,7 @@ class _AvatarPageState extends State<AvatarPage>
   Animation<Color> bgColorAnimation;
   Animation<Offset> offsetTween;
   bool hasEnoughFunds;
-  NatriconSetting _curNatriconSetting = NatriconSetting(NatriconOptions.ON);
+  NatriconSetting _curNatriconSetting = NatriconSetting(NatriconOptions.OFF);
   @override
   void initState() {
     super.initState();

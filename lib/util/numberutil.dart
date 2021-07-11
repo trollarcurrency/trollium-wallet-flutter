@@ -9,7 +9,7 @@ class NumberUtil {
   /// Convert raw to ban and return as BigDecimal
   ///
   /// @param raw 100000000000000000000000000000
-  /// @return Decimal value 1.000000000000000000000000000000
+  /// @return Decimal value 1.00000000000000000000000000000
   ///
   static Decimal getRawAsUsableDecimal(String raw) {
     Decimal amount = Decimal.parse(raw.toString());
@@ -72,7 +72,7 @@ class NumberUtil {
   /// @param amount 10020243004141
   /// @return 0.0000001%
   static String getPercentOfTotalSupply(BigInt amount) {
-    Decimal totalSupply = Decimal.parse('133248290000000000000000000000000000000');
+    Decimal totalSupply = Decimal.parse('694201330000000000000000000000000000000');
     Decimal amountRaw = Decimal.parse(amount.toString());
     return ((amountRaw / totalSupply) * Decimal.fromInt(100)).toStringAsFixed(4);
   }

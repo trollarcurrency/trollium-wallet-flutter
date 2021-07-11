@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
-import 'package:natrium_wallet_flutter/model/setting_item.dart';
+import 'package:trollium_wallet_flutter/model/setting_item.dart';
 
-enum AvailableBlockExplorerEnum { NANOCRAWLER, NANOLOOKER }
+enum AvailableBlockExplorerEnum { TROLLAREXPLORER }
 
 /// Represent the available authentication methods our app supports
 class AvailableBlockExplorer extends SettingSelectionItem {
@@ -12,12 +12,10 @@ class AvailableBlockExplorer extends SettingSelectionItem {
 
   String getDisplayName(BuildContext context) {
     switch (explorer) {
-      case AvailableBlockExplorerEnum.NANOCRAWLER:
-        return "nanocrawler.cc";
-      case AvailableBlockExplorerEnum.NANOLOOKER:
-        return "nanolooker.com";
+      case AvailableBlockExplorerEnum.TROLLAREXPLORER:
+        return "explorer.trollar.life";
       default:
-        return "nanocrawler.cc";
+        return "explorer.trollar.life";
     }
   }
 

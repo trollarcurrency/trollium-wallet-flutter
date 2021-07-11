@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:natrium_wallet_flutter/model/available_block_explorer.dart';
-import 'package:natrium_wallet_flutter/model/available_language.dart';
+import 'package:trollium_wallet_flutter/model/available_block_explorer.dart';
+import 'package:trollium_wallet_flutter/model/available_language.dart';
 
 import 'l10n/messages_all.dart';
 
@@ -324,7 +324,7 @@ class AppLocalization {
   }
 
   String get sendAmountConfirm {
-    return Intl.message("Send %1 NANO",
+    return Intl.message("Send %1 TROLLAR",
         desc: 'send_pin_description', name: 'sendAmountConfirm');
   }
 
@@ -370,7 +370,7 @@ class AppLocalization {
   }
 
   String get minimumSend {
-    return Intl.message("Minimum send amount is %1 NANO",
+    return Intl.message("Minimum send amount is %1 TROLLAR",
         desc: 'send_minimum_error', name: 'minimumSend');
   }
 
@@ -633,7 +633,7 @@ class AppLocalization {
   }
 
   String get notificationTitle {
-    return Intl.message("Received %1 NANO",
+    return Intl.message("Received %1 TROLLAR",
         desc: 'notification_title', name: 'notificationTitle');
   }
 
@@ -712,7 +712,7 @@ class AppLocalization {
   }
 
   String get transferQrScanHint {
-    return Intl.message("Scan a Nano \nseed or private key",
+    return Intl.message("Scan a Trollar \nseed or private key",
         desc: 'transfer_qr_scan_hint', name: 'transferQrScanHint');
   }
 
@@ -722,7 +722,7 @@ class AppLocalization {
   }
 
   String get transferNoFunds {
-    return Intl.message("This seed does not have any NANO on it",
+    return Intl.message("This seed does not have any TROLLAR on it",
         desc: 'transfer_no_funds_toast', name: 'transferNoFunds');
   }
 
@@ -730,7 +730,7 @@ class AppLocalization {
 
   String get transferConfirmInfo {
     return Intl.message(
-        "A wallet with a balance of %1 NANO has been detected.\n",
+        "A wallet with a balance of %1 TROLLAR has been detected.\n",
         desc: 'transfer_confirm_info_first',
         name: 'transferConfirmInfo');
   }
@@ -755,7 +755,7 @@ class AppLocalization {
 
   String get transferComplete {
     return Intl.message(
-        "%1 NANO successfully transferred to your Trollium Wallet.\n",
+        "%1 TROLLAR successfully transferred to your Trollium Wallet.\n",
         desc: 'transfer_complete_text',
         name: 'transferComplete');
   }
@@ -770,7 +770,7 @@ class AppLocalization {
   // Scan
 
   String get scanInstructions {
-    return Intl.message("Scan a Nano \naddress QR code",
+    return Intl.message("Scan a Trollar \naddress QR code",
         desc: 'scan_send_instruction_label', name: 'scanInstructions');
   }
 
@@ -915,7 +915,7 @@ class AppLocalization {
 
   String get newAccountIntro {
     return Intl.message(
-        "This is your new account. Once you receive NANO, transactions will show up like this:",
+        "This is your new account. Once you receive TROLLAR, transactions will show up like this:",
         desc: 'Alternate account intro card',
         name: 'newAccountIntro');
   }
@@ -1225,18 +1225,18 @@ class AppLocalization {
 
   /// -- NON-TRANSLATABLE ITEMS
   String getBlockExplorerUrl(String hash, AvailableBlockExplorer explorer) {
-    if (explorer.explorer == AvailableBlockExplorerEnum.NANOLOOKER) {
-      return 'https://nanolooker.com/block/$hash';
+    if (explorer.explorer == AvailableBlockExplorerEnum.TROLLAREXPLORER) {
+      return 'https://explorer.trollar.life/block/$hash';
     }
-    return 'https://nanocrawler.cc/explorer/block/$hash';
+    return 'https://explorer.trollar.life/explorer/block/$hash';
   }
 
   String getAccountExplorerUrl(
       String account, AvailableBlockExplorer explorer) {
-    if (explorer.explorer == AvailableBlockExplorerEnum.NANOLOOKER) {
-      return 'https://nanolooker.com/account/$account';
+    if (explorer.explorer == AvailableBlockExplorerEnum.TROLLAREXPLORER) {
+      return 'https://explorer.trollar.life/account/$account';
     }
-    return 'https://nanocrawler.cc/explorer/account/$account';
+    return 'https://explorer.trollar.life/explorer/account/$account';
   }
 
   String get eulaUrl {

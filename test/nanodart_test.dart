@@ -51,7 +51,7 @@ void main() {
     });
 
     test('test bigint to byte and back', () {
-      BigInt raw = BigInt.parse('1000000000000000000000000000000');
+      BigInt raw = BigInt.parse('100000000000000000000000000000');
       Uint8List byteRaw = NanoHelpers.bigIntToBytes(raw);
       expect(NanoHelpers.byteToBigInt(byteRaw), raw);
     });

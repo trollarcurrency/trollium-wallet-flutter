@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:natrium_wallet_flutter/themes.dart';
-import 'package:natrium_wallet_flutter/model/setting_item.dart';
+import 'package:trollium_wallet_flutter/themes.dart';
+import 'package:trollium_wallet_flutter/model/setting_item.dart';
 
 enum ThemeOptions { TROLLIUM, TITANIUM, INDIUM, NEPTUNIUM, THORIUM }
 
