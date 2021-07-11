@@ -39,7 +39,7 @@ class _AvatarChangePageState extends State<AvatarChangePage> {
   void initState() {
     super.initState();
     this.loading = true;
-    String url = 'https://natricon.com/api/v1/nano/nonce?address=${widget.curAddress}';
+    String url = 'https://natricon.invalid/api/v1/nano/nonce?address=${widget.curAddress}';
     http.get(url, headers:  {}).then((response) {
       if (mounted) {
         if (response.statusCode != 200) {

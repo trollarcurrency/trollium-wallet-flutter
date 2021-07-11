@@ -382,7 +382,7 @@ class _SendConfirmSheetState extends State<SendConfirmSheet> {
       );
       if (widget.manta != null) {
         widget.manta.sendPayment(
-            transactionHash: resp.hash, cryptoCurrency: "NANO");        
+            transactionHash: resp.hash, cryptoCurrency: "TROLLAR");        
       }
       StateContainer.of(context).wallet.frontier = resp.hash;
       StateContainer.of(context).wallet.accountBalance += BigInt.parse(widget.amountRaw);

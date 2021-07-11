@@ -76,7 +76,7 @@ class _SettingsSheetState extends State<SettingsSheet>
   UnlockSetting _curUnlockSetting = UnlockSetting(UnlockOption.NO);
   LockTimeoutSetting _curTimeoutSetting =
       LockTimeoutSetting(LockTimeoutOption.ONE);
-  ThemeSetting _curThemeSetting = ThemeSetting(ThemeOptions.NATRIUM);
+  ThemeSetting _curThemeSetting = ThemeSetting(ThemeOptions.TROLLIUM);
 
   bool _securityOpen;
   bool _loadingAccounts;
@@ -134,8 +134,8 @@ class _SettingsSheetState extends State<SettingsSheet>
     sl.get<SharedPrefsUtil>().getUseNatricon().then((useNatricon) {
       setState(() {
         _curNatriconSetting = useNatricon
-            ? NatriconSetting(NatriconOptions.ON)
-            : NatriconSetting(NatriconOptions.OFF);
+            ? NatriconSetting(NatriconOptions.OFF)
+            : NatriconSetting(NatriconOptions.ON);
       });
     });
     // Get default theme settings
@@ -1617,8 +1617,8 @@ class _SettingsSheetState extends State<SettingsSheet>
                         AppLocalization.of(context).shareNatrium,
                         AppIcons.share, onPressed: () {
                       Share.share(
-                          "Check out Natrium - NANO Wallet for iOS and Android" +
-                              " https://natrium.io");
+                          "Check out Trollium - TROLLAR Wallet for iOS and Android" +
+                              " https://trollar.life/trollium");
                     }),
                     Divider(
                       height: 2,

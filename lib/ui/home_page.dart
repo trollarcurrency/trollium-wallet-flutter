@@ -87,7 +87,7 @@ class _AppHomePageState extends State<AppHomePage>
   // List of contacts (Store it so we only have to query the DB once for transaction cards)
   List<Contact> _contacts = List();
 
-  // Price conversion state (BTC, NANO, NONE)
+  // Price conversion state (BTC, TROLLAR, NONE)
   PriceConversion _priceConversion;
 
   bool _isRefreshing = false;
@@ -281,7 +281,7 @@ class _AppHomePageState extends State<AppHomePage>
     bool contactAdded = await sl.get<SharedPrefsUtil>().getFirstContactAdded();
     if (!contactAdded) {
       bool addressExists = await sl.get<DBHelper>().contactExistsWithAddress(
-          "nano_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd");
+          "troll_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd");
       if (addressExists) {
         return;
       }
@@ -294,7 +294,7 @@ class _AppHomePageState extends State<AppHomePage>
       Contact c = Contact(
           name: "@NatriumDonations",
           address:
-              "nano_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd");
+              "troll_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd");
       await sl.get<DBHelper>().saveContact(c);
     }
   }
@@ -505,7 +505,7 @@ class _AppHomePageState extends State<AppHomePage>
       if (contact.address ==
           _historyListMap[StateContainer.of(context).wallet.address][localIndex]
               .account
-              .replaceAll("xrb_", "nano_")) {
+              .replaceAll("xrb_", "troll_")) {
         displayName = contact.name;
       }
     });
@@ -1262,7 +1262,7 @@ class _AppHomePageState extends State<AppHomePage>
         style: AppStyles.textStyleTransactionWelcome(context),
       );
     }
-    // Colorize NANO
+    // Colorize TROLLAR
     List<String> splitStr = workingStr.split("TROLLAR");
     if (splitStr.length != 2) {
       return TextSpan(
@@ -1278,7 +1278,7 @@ class _AppHomePageState extends State<AppHomePage>
           style: AppStyles.textStyleTransactionWelcome(context),
         ),
         TextSpan(
-          text: "NANO",
+          text: "TROLLAR",
           style: AppStyles.textStyleTransactionWelcomePrimary(context),
         ),
         TextSpan(
@@ -1859,7 +1859,7 @@ class _AppHomePageState extends State<AppHomePage>
         color: Colors.transparent,
         child: _priceConversion == PriceConversion.HIDDEN
             ?
-            // Nano logo
+            // Trollar logo
             Center(
                 child: Container(
                     child: Icon(AppIcons.nanologo,

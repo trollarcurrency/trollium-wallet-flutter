@@ -61,7 +61,7 @@ abstract class BaseTheme {
   AppIconEnum appIcon;
 }
 
-class NatriumTheme extends BaseTheme {
+class TrolliumTheme extends BaseTheme {
   /*static const brightBlue = Color(0xFFA3CDFF);
 
   static const green = Color(0xFF4AFFAE);
@@ -201,7 +201,7 @@ class NatriumTheme extends BaseTheme {
   BoxShadow boxShadowButton = BoxShadow(color: Colors.transparent);
 
   OverlayTheme qrScanTheme = OverlayTheme.NATRIUM;
-  AppIconEnum appIcon = AppIconEnum.NATRIUM;
+  AppIconEnum appIcon = AppIconEnum.TROLLIUM;
 }
 
 class TitaniumTheme extends BaseTheme {
@@ -506,7 +506,7 @@ class ThoriumTheme extends BaseTheme {
   AppIconEnum appIcon = AppIconEnum.THORIUM;
 }
 
-enum AppIconEnum { NATRIUM, TITANIUM, INDIUM, NEPTUNIUM, THORIUM }
+enum AppIconEnum { TROLLIUM, TITANIUM, INDIUM, NEPTUNIUM, THORIUM }
 class AppIcon {
   static const _channel = const MethodChannel('fappchannel');
 
@@ -514,7 +514,7 @@ class AppIcon {
     if (!Platform.isIOS) {
       return null;
     }
-    String iconStr = "natrium";
+    String iconStr = "trollium";
     switch (iconToChange) {
       case AppIconEnum.THORIUM:
         iconStr = "thorium";
@@ -528,9 +528,9 @@ class AppIcon {
       case AppIconEnum.TITANIUM:
         iconStr = "titanium";
         break;
-      case AppIconEnum.NATRIUM:
+      case AppIconEnum.TROLLIUM:
       default:
-        iconStr = "natrium";
+        iconStr = "trollium";
         break;
     }
     final Map<String, dynamic> params = <String, dynamic>{
