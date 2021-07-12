@@ -224,7 +224,7 @@ class _AppShareCardState extends State<AppShareCard> {
                             child: Container(
                               height: 5.333333,
                               child: AutoSizeText(
-                                "",
+                                String.fromCharCode(0xe81b),
                                 style: TextStyle(
                                   fontFamily: "AppIcons",
                                   color: StateContainer.of(context)

@@ -276,7 +276,7 @@ class _ReceiveSheetStateState extends State<ReceiveSheet> {
                             child: Container(
                               height: MediaQuery.of(context).size.width / 30,
                               child: AutoSizeText(
-                                "",
+                                String.fromCharCode(0xe81b),
                                 style: TextStyle(
                                     fontFamily: "AppIcons",
                                     color: StateContainer.of(context)

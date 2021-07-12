@@ -1226,7 +1226,7 @@ class AppLocalization {
   /// -- NON-TRANSLATABLE ITEMS
   String getBlockExplorerUrl(String hash, AvailableBlockExplorer explorer) {
     if (explorer.explorer == AvailableBlockExplorerEnum.TROLLAREXPLORER) {
-      return 'https://explorer.trollar.life/block/$hash';
+      return 'https://explorer.trollar.life/explorer/block/$hash';
     }
     return 'https://explorer.trollar.life/explorer/block/$hash';
   }
@@ -1234,7 +1234,7 @@ class AppLocalization {
   String getAccountExplorerUrl(
       String account, AvailableBlockExplorer explorer) {
     if (explorer.explorer == AvailableBlockExplorerEnum.TROLLAREXPLORER) {
-      return 'https://explorer.trollar.life/account/$account';
+      return 'https://explorer.trollar.life/explorer/account/$account';
     }
     return 'https://explorer.trollar.life/explorer/account/$account';
   }

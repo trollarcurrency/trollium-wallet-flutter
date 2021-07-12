@@ -181,7 +181,7 @@ class _ChangeRepManualSheetState extends State<ChangeRepManualSheet> {
                           textAlign: TextAlign.center,
                           inputFormatters: [
                             LengthLimitingTextInputFormatter(
-                                65),
+                                66),
                           ],
                           textInputAction: TextInputAction.done,
                           maxLines: null,

@@ -226,7 +226,7 @@ class _AddContactSheetState extends State<AddContactSheet> {
                             : AppStyles.textStyleAddressText60(
                                 context),
                         inputFormatters: [
-                          LengthLimitingTextInputFormatter(65),
+                          LengthLimitingTextInputFormatter(66),
                         ],
                         textInputAction: TextInputAction.done,
                         maxLines: null,

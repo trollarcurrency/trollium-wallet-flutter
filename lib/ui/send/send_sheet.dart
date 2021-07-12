@@ -1032,7 +1032,7 @@ class _SendSheetState extends State<SendSheet> {
         inputFormatters: [
           _isContact
               ? LengthLimitingTextInputFormatter(20)
-              : LengthLimitingTextInputFormatter(65),
+              : LengthLimitingTextInputFormatter(66),
         ],
         textInputAction: TextInputAction.done,
         maxLines: null,
