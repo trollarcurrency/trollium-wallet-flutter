@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:716870170992:android:3a068f6e99bf1a7d",
         "android_client_info": {
-          "package_name": "life.trollar.trolliumwallet"
+          "package_name": "co.banano.natriumwallet"
         }
       },
       "oauth_client": [
@@ -41,7 +41,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:716870170992:android:693a7e526e5dae98",
         "android_client_info": {
-          "package_name": "life.trollar.trolliumwallet"
+          "package_name": "com.avengemedia.natrium"
         }
       },
       "oauth_client": [
@@ -69,10 +69,10 @@
       }
     },
     {
-      "client_info": {
+     "client_info": {
         "mobilesdk_app_id": "1:716870170992:android:ea89e20d15da2256",
         "android_client_info": {
-          "package_name": "life.trollar.trolliumwallet"
+          "package_name": "com.banano.natriumwallet"
         }
       },
       "oauth_client": [

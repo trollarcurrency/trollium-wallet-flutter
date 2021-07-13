@@ -40,8 +40,8 @@ android {
         disable 'InvalidPackage'
     }
 
-    defaultConfig {
-        applicationId "life.trollar.trolliumwallet"
+     defaultConfig {
+        applicationId "co.banano.natriumwallet"
         minSdkVersion 18
         targetSdkVersion 30
         multiDexEnabled true
