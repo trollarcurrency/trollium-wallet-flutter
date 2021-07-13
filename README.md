@@ -4,7 +4,7 @@
 
 ## What is Trollium?
 
-Trollium is a cross-platform mobile wallet for the Trollar cryptocurrency. It is written in Dart using [Flutter](https://flutter.io).
+Trollium is a cross platform mobile wallet for the Trollar cryptocurrency. It is written in Dart using [Flutter](https://flutter.io).
 
 | Link | Description |
 | :----- | :------ |
