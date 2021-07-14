@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "insufficientBalance" : MessageLookupByLibrary.simpleMessage("Nedostatečný zůstatek"),
     "invalidAddress" : MessageLookupByLibrary.simpleMessage("Zadaná adresa není platná"),
     "invalidPassword" : MessageLookupByLibrary.simpleMessage("Neplatné heslo"),
-    "kaliumWallet" : MessageLookupByLibrary.simpleMessage("Kalium peněženka"),
+    "kaliumWallet" : MessageLookupByLibrary.simpleMessage("Trollium peněženka"),
     "language" : MessageLookupByLibrary.simpleMessage("Jazyk"),
     "liveSupportButton" : MessageLookupByLibrary.simpleMessage("Podpora"),
     "lockAppSetting" : MessageLookupByLibrary.simpleMessage("Ověřit při spuštění"),

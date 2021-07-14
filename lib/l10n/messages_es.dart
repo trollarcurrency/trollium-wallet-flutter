@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "insufficientBalance" : MessageLookupByLibrary.simpleMessage("Fondos insuficientes"),
     "invalidAddress" : MessageLookupByLibrary.simpleMessage("Billetera de destino incorrecta"),
     "invalidPassword" : MessageLookupByLibrary.simpleMessage("Contraseña no válida"),
-    "kaliumWallet" : MessageLookupByLibrary.simpleMessage("Billetera Kalium"),
+    "kaliumWallet" : MessageLookupByLibrary.simpleMessage("Billetera Trollium"),
     "language" : MessageLookupByLibrary.simpleMessage("Idioma"),
     "liveSupportButton" : MessageLookupByLibrary.simpleMessage("Soporte"),
     "lockAppSetting" : MessageLookupByLibrary.simpleMessage("Autenticarse al iniciar"),

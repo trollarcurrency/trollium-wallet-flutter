@@ -119,8 +119,7 @@
   "transferConfirmInfoSecond": "Натиснете да потвърдите прехвърлянето на средствата.\n",
   "transferConfirmInfoThird": "Прехвърлянето може да отнеме няколко секунди.",
   "transferLoading": "Прехвърляне",
-  "transferComplete": "%1 TROLLAR
- успешно прехвърлени към вашият Trollium Портфейл.\n",
+  "transferComplete": "%1 TROLLAR успешно прехвърлени към вашият Trollium Портфейл.\n",
   "transferClose": "Докоснете някъде, за да затворите прозореца.",
   "scanInstructions": "Сканирай Trollar адрес или QR-код",
   "unlockPin": "Въведи ПИН за да отключиш Trollium",
