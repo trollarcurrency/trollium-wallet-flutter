@@ -1,4 +1,4 @@
-package co.banano.natriumwallet;
+package life.trollar.trolliumwallet;
 
 import android.util.Base64;
 

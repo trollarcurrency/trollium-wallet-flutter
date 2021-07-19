@@ -1,4 +1,4 @@
-package co.banano.natriumwallet;
+package life.trollar.trolliumwallet;
 
 import android.os.Bundle;
 
@@ -19,7 +19,8 @@ public class MainActivity extends FlutterFragmentActivity {
             .setMethodCallHandler(
                 (call, result) -> {
                     if (call.method.equals("getSecret")) {
-                        result.success(new LegacyStorage().getSecret());
+                        //result.success(new LegacyStorage().getSecret());
+                        result.notImplemented();
                     } else {
                         result.notImplemented();
                     }
