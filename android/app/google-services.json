@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383234161018",
+    "project_id": "trollium-19b98",
+    "storage_bucket": "trollium-19b98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383234161018:android:d9a2b78d16a40558f2fec3",
+        "android_client_info": {
+          "package_name": "life.trollar.trolliumwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383234161018-d2ru4ugp97c23gcfjd1dob93pimh6pse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPiCiWR0aeC7TJFs4BxHrzor3oZjg8G-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383234161018-d2ru4ugp97c23gcfjd1dob93pimh6pse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
