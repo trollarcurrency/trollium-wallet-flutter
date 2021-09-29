@@ -1,0 +1,14 @@
+# ninja log v5
+28	861	654395718	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.c.o	fd396813a94f8ccb
+16	883	654395718	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.c.o	a3884b0cda955a55
+1	893	654395718	CMakeFiles/ed25519_blake2b.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519_blake2b.c.o	5543098204f28752
+8	902	654395718	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.c.o	8657c8d76bfac187
+13	913	654395718	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.c.o	5a74afe11bc8beb
+6	930	654395718	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.c.o	c5a044048620c2b8
+19	966	654395718	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.c.o	1e60d291f1417068
+23	1104	654395718	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.c.o	7d3f32088e0f5ac2
+25	1141	654395718	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.c.o	ce545ef71c040c1a
+11	1173	654395718	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.c.o	11d24b45cbe37047
+4	1591	654395719	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.c.o	b4146822979b8c8
+1592	1735	654395719	libed25519-donna.a	3f6aa10463fddef1
+1736	2186	654395719	C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/release/obj/x86/libed25519_blake2b.so	27b5fa8856ae2a13

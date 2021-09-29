@@ -1,0 +1,67 @@
+[
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Ded25519_blake2b_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519_blake2b.dir\\2cd2e515ca0e7fcdf2065e2968167ca0\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519_blake2b.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519_blake2b.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519_blake2b.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\2cd2e515ca0e7fcdf2065e2968167ca0\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\blake2b.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\blake2b.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\blake2b.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-32bit.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-32bit.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-32bit.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-helpers.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-helpers.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-helpers.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-scalarmult-base.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-scalarmult-base.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-scalarmult-base.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-32bit-tables.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-32bit-tables.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-32bit-tables.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-basepoint-table.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-basepoint-table.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-basepoint-table.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-impl-base.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-impl-base.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-impl-base.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\2cd2e515ca0e7fcdf2065e2968167ca0\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\2cd2e515ca0e7fcdf2065e2968167ca0\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\memzero.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\memzero.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\memzero.c"
+},
+
+{
+  "directory": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/arm64-v8a",
+  "command": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ed25519-donna.dir\\76ce2b40e5cff4a7dc943bc77f9c56e2\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\modm-donna-32bit.c.o   -c C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\modm-donna-32bit.c",
+  "file": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\modm-donna-32bit.c"
+}
+]

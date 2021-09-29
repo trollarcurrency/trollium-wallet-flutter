@@ -1,0 +1,7 @@
+Executable : C:\Users\georg\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\georg\Documents\GitHub\trollium-wallet-flutter\flutter_nano_ffi\android\.cxx\cmake\release\armeabi-v7a
+ed25519_blake2b
+jvmArgs : 
+

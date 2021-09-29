@@ -1,0 +1,4 @@
+C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/x86_64/CMakeFiles/ed25519_blake2b.dir
+C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/x86_64/CMakeFiles/ed25519-donna.dir
+C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

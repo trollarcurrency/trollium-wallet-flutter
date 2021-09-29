@@ -1,0 +1,14 @@
+# ninja log v5
+40	1429	654395713	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.c.o	9b73fb4570f53e31
+2	1568	654395713	CMakeFiles/ed25519_blake2b.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519_blake2b.c.o	c9300d15ee10cadd
+34	1632	654395713	CMakeFiles/ed25519-donna.dir/7ca18c59b5bc6eb6805793e06c563b53/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.c.o	2b697e226d467f41
+14	1664	654395713	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.c.o	2832a527f61b9b0
+28	1674	654395714	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.c.o	2dd3ea621d6e38bc
+22	1695	654395713	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.c.o	aba1358265d60026
+37	1731	654395714	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.c.o	1d340b6e1f4751a0
+47	1780	654395714	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.c.o	e76661f56849f206
+44	1865	654395714	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.c.o	c2f6cdbf4f10cc0d
+18	1923	654395714	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.c.o	85fbde55753bca92
+7	2233	654395714	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.c.o	dba1554223320dbd
+2234	2496	654395714	libed25519-donna.a	12801c588970bb5
+2496	2947	654395715	C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/release/obj/armeabi-v7a/libed25519_blake2b.so	84c3f245d927823

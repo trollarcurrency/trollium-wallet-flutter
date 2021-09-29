@@ -1,0 +1,166 @@
+{
+  "stringTable": {
+    "0": "C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/flutter_nano_ffi/android/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Ded25519_blake2b_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -Oz -DNDEBUG -fPIC",
+    "2": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/georg/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\android\\CMakeLists.txt",
+    "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\georg\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\android\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\georg\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\android\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ed25519-donna-Release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\georg\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\android\\.cxx\\cmake\\release\\armeabi-v7a\" ed25519-donna",
+      "buildType": "release",
+      "toolchain": "3616096152",
+      "abi": "armeabi-v7a",
+      "artifactName": "ed25519-donna",
+      "files": [
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\blake2b.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-32bit.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-helpers.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-scalarmult-base.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-32bit-tables.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-basepoint-table.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-impl-base.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\memzero.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\modm-donna-32bit.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\blake2_common.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\blake2b.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-32bit.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-helpers.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\curve25519-donna-scalarmult-base.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-32bit-tables.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-basepoint-table.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-impl-base.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna-portable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-donna.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-hash-custom-blake2b.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519-hash-custom.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\ed25519.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\memzero.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519-donna\\modm-donna-32bit.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\android\\.cxx\\cmake\\release\\armeabi-v7a\\libed25519-donna.a"
+    },
+    "ed25519_blake2b-Release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\georg\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\android\\.cxx\\cmake\\release\\armeabi-v7a\" ed25519_blake2b",
+      "buildType": "release",
+      "toolchain": "3616096152",
+      "abi": "armeabi-v7a",
+      "artifactName": "ed25519_blake2b",
+      "files": [
+        {
+          "src": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\flutter_nano_ffi\\ios\\Classes\\ed25519_blake2b\\ed25519_blake2b.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\georg\\Documents\\GitHub\\trollium-wallet-flutter\\build\\flutter_nano_ffi\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libed25519_blake2b.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3616096152": {
+      "cCompilerExecutable": "C:\\Users\\georg\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

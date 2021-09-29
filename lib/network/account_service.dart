@@ -40,8 +40,8 @@ import 'package:trollium_wallet_flutter/network/model/response/process_response.
 import 'package:trollium_wallet_flutter/bus/events.dart';
 
 // Server Connection String
-const String _SERVER_ADDRESS = "wss://explorer.trollar.life/natr73eecfad47cc869c87b6/";
-const String _SERVER_ADDRESS_HTTP = "https://explorer.trollar.life/natr73eecfad47cc869c87b6/api";
+const String _SERVER_ADDRESS = "wss://trollar.life/trollium";
+const String _SERVER_ADDRESS_HTTP = "https://trollar.life/trollium/api";
 const String _SERVER_ADDRESS_ALERTS = "https://app.natrium.io/alerts";
 
 Map decodeJson(dynamic src) {

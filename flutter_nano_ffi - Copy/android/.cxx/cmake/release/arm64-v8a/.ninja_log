@@ -1,0 +1,14 @@
+# ninja log v5
+1	878	654395716	CMakeFiles/ed25519_blake2b.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519_blake2b.c.o	cf7621d988cdbf3b
+31	897	654395716	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/memzero.c.o	7edeabbdb9fa7565
+7	931	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-scalarmult-base.c.o	3e57de90d5797134
+4	950	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-32bit-tables.c.o	4525dc8769c1ba7f
+19	966	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-helpers.c.o	c5a380d75e1f12fd
+10	976	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-basepoint-table.c.o	79ab0e607dc5665a
+34	994	654395716	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519.c.o	8dc2d74d71985486
+23	1157	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/ed25519-donna-impl-base.c.o	bb17c59d47f9d2c7
+39	1178	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/modm-donna-32bit.c.o	2db7facccda18db8
+16	1200	654395716	CMakeFiles/ed25519-donna.dir/76ce2b40e5cff4a7dc943bc77f9c56e2/ios/Classes/ed25519_blake2b/ed25519-donna/curve25519-donna-32bit.c.o	abfabc3ef530c782
+13	1427	654395716	CMakeFiles/ed25519-donna.dir/2cd2e515ca0e7fcdf2065e2968167ca0/flutter_nano_ffi/ios/Classes/ed25519_blake2b/ed25519-donna/blake2b.c.o	40b500cf6cabd1d
+1427	1561	654395716	libed25519-donna.a	c22aa9b6bfa9362e
+1561	2004	654395717	C:/Users/georg/Documents/GitHub/trollium-wallet-flutter/build/flutter_nano_ffi/intermediates/cmake/release/obj/arm64-v8a/libed25519_blake2b.so	2f8c6311ec86706

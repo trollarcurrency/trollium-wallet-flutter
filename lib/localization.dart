@@ -1240,11 +1240,11 @@ class AppLocalization {
   }
 
   String get eulaUrl {
-    return 'https://trollar.life/trollium/eula.html';
+    return 'https://trollar.life/trollium-eula.html';
   }
 
   String get privacyUrl {
-    return 'https://trollar.life/trollium/privacy.html';
+    return 'https://trollar.life/trollium-privacy.html';
   }
 
   /// -- END NON-TRANSLATABLE ITEMS
